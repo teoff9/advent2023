@@ -1,100 +1,100 @@
- 1 r 10 b 5  g ; 11 b 6  g ; 6  g ; 1  g 1 r 12 b ; 3 b ; 3 b 4  g 1 r
- g 3 r 5  g ; 5  g 7 r ; 1 b 7 r 3  g ; 3 r 2 b ; 5  g 4 r
- g 4 b 4  g ; 2  g 2 b ; 8  g 2 r 3 b
- g 3 b 15  g ; 16  g ; 2 r 7  g ; 2 b 14  g
- g 8  g 6 r 16 b ; 8 r 12  g ; 1 r 9  g 16 b ; 8 r 3  g ; 2 b 5 r 10  g ; 15 r 4 b 8  g
- g 5 b 2  g ; 6 r 3  g ; 4  g 4 b 2 r ; 14 b 2 r
- g 2  g 6 b 1 r ; 2 b 1 r ; 8 b ; 5 b 1  g ; 6 b 1 r ; 2 b
- g 1 r 10 b 1  g ; 6 b 1 r ; 3 b 2  g ; 1 r 1 b 3  g ; 13 b ; 10 b 3  g 3 r
- g 2 b ; 8  g 3 b ; 4  g ; 14  g 1 r 2 b ; 3 b 1 r 12  g
- g 1 b 7  g ; 1 r 3  g 5 b ; 1 b 5  g 1 r ; 13  g 5 b 2 r
- g 1  g 10 r 6 b ; 15 r 12 b ; 18 r 1  g 1 b
- g 16 r 8 b 1  g ; 15 r 3 b 1  g ; 5 r
- g 6 r 7 b 7  g ; 3 b 4 r 13  g ; 1 b 6 r 11  g ; 2 r 1 b 14  g ; 8  g 5 b 2 r ; 4 b 18  g 4 r
- g 16 r 3 b 1  g ; 7  g 3 r ; 16 r 15  g 3 b ; 3 b 13 r 10  g
- g 1 b 1 r ; 3 b 2  g ; 1 r ; 2 r 2  g 3 b ; 3 b 1 r 3  g
- g 9 r 3 b ; 13 r 9 b ; 9 b 10 r ; 5 r 10 b 1  g ; 2 r 6  g 8 b ; 6  g 13 r 5 b
- g 15 r 17  g 8 b ; 18 r 16 b 15  g ; 8 b 17  g 10 r ; 5  g 3 r 12 b
- g 2 b 11 r 2  g ; 1  g 11 r 11 b ; 1 r 4 b ; 10 b 9 r ; 1 b 7 r
- g 2 b 3  g 5 r ; 8 b 16  g ; 12 r 7 b 8  g ; 9  g 1 b ; 3 r 16  g 10 b
- g 3 b 5  g 6 r ; 2 r 8 b 7  g ; 7  g 3 b ; 2 r 11 b ; 1  g 6 r 3 b
- g 16 r 3 b 8  g ; 10 r 15 b 3  g ; 6  g 13 r 15 b ; 11  g 13 b 10 r
- g 8  g 1 b ; 2 b 9  g 3 r ; 2 r 2 b ; 1 r 3 b 8  g ; 2 b 1  g ; 1  g 2 b
- g 2 b 8 r 5  g ; 9  g 2 b ; 10 r 2  g ; 12 r 1 b ; 11  g 2 b 13 r ; 7  g
- g 6 r ; 13  g 7 r 10 b ; 7  g 9 r 1 b ; 3 b 2  g 2 r
- g 7  g 1 r 2 b ; 8  g 2 b 5 r ; 5 b 8  g 4 r ; 5 b 2  g 1 r ; 5  g 3 r 7 b ; 3 b 6  g 1 r
- g 6  g 3 r ; 1 b 2  g 2 r ; 2  g 2 r 3 b ; 4 b 8 r 2  g ; 1 r 1  g 1 b ; 6 r 5 b
- g 4  g 13 b 2 r ; 2 r 7  g 10 b ; 14 b 11  g 1 r ; 10 b 15  g
- g 4  g 13 r 7 b ; 2 r 5 b ; 5 b 4  g
- g 6  g 15 r ; 1 b 6 r 8  g ; 6  g 1 b ; 12 r ; 1  g 7 r 1 b
- g 4 b 4  g 2 r ; 6 b 9 r 20  g ; 9 b 4 r 2  g ; 8 r 8 b 1  g ; 6  g 12 b 2 r ; 8  g 8 r
- g 9 b ; 1 r 2 b 5  g ; 2 b 2 r 9  g ; 2 b 1 r 8  g ; 11  g 2 r 3 b ; 7  g 5 b
- g 15 r 5  g ; 4  g 2 b 3 r ; 1 b 9 r ; 1 b 15 r ; 4 b 2 r 8  g ; 3  g 3 b
- g 13 b 1 r 1  g ; 8 b 6 r ; 4 b 2 r
- g 5 b 9 r 7  g ; 8 r 6  g 5 b ; 2 b 7  g 12 r
- g 4 b 15 r ; 1  g 10 b 7 r ; 9 r 3  g 1 b ; 13 r 9 b ; 3 b 2 r
- g 4 b 18  g 2 r ; 5  g 6 b 11 r ; 6 r 12 b 14  g ; 19  g 10 b 7 r ; 7 r 8  g 9 b
- g 16 b 5  g 18 r ; 3 b 14  g 1 r ; 4 b 3  g 14 r ; 12  g 7 r 15 b ; 15  g 11 b 2 r ; 8 b 13  g 6 r
- g 6 r 4 b 12  g ; 3 r 11 b ; 16  g 2 b 8 r ; 4 b 11 r 4  g ; 17  g 7 r 10 b ; 9 b 15  g 1 r
- g 1  g 1 r 10 b ; 1 r 5 b 2  g ; 4 r 7 b ; 9 r 6  g 5 b ; 1  g 2 b 9 r
- g 13 b 11 r 12  g ; 8  g 11 r 4 b ; 2 b 2  g 12 r ; 2  g 3 r 13 b ; 13 b 6 r 2  g ; 4  g 6 r 8 b
- g 12 r 4  g 13 b ; 4 r 7 b 10  g ; 17  g 17 r 11 b
- g 1 r 1  g ; 1 r 4  g ; 1 b 4 r 4  g ; 3 r ; 1 b 3  g 1 r
- g 7 b 10  g ; 5 b 2  g ; 2 b 1  g 4 r ; 14 r 6  g 7 b ; 4  g 14 r 8 b ; 4  g 6 r
- g 9  g 4 r ; 4 r 6  g ; 5 r 2 b 7  g ; 9 b 1  g 14 r
- g 20 b 4 r 6  g ; 3 b 1  g 6 r ; 8 b 8  g 11 r
- g 1  g 6 r ; 6 r 3 b 3  g ; 6 r 3 b 4  g ; 1 b 5 r ; 1  g 4 r 1 b ; 2  g 4 r
- g 12  g 8 r 4 b ; 7  g 6 r 11 b ; 4 r 11 b 12  g
- g 1  g 3 b ; 13  g 3 r 11 b ; 7 b 1  g 2 r ; 7 r 15  g 4 b ; 4 r 8 b 10  g ; 15  g 8 b 6 r
- g 2 r ; 2 r 9 b ; 4 b 1  g
- g 10 b 1  g 18 r ; 13 r 1  g 7 b ; 4 r 2  g 9 b ; 2  g 4 r 10 b ; 7 b 3 r ; 19 r 9 b
- g 2  g 2 r 5 b ; 9 r 5 b ; 3 r 10 b ; 9 b 6 r 7  g ; 2 r 5 b
- g 6 b 3  g ; 5  g 3 b 5 r ; 1 b 2  g 2 r
- g 2 b 9  g 15 r ; 18 r 1 b ; 13 r 12  g ; 7  g 2 b 9 r
- g 18  g ; 2 r 6  g ; 6 r 9  g 1 b ; 1 b 4  g 5 r ; 3 r ; 3  g 4 r
- g 5 r 2 b 5  g ; 10 b 4  g 8 r ; 15  g 9 b 9 r ; 1  g 9 b
- g 8  g 11 b 1 r ; 1 b 1 r 4  g ; 8 b
- g 5  g 4 b ; 1 b 4  g ; 1 r 1  g 3 b ; 1 r 2 b 6  g
- g 8  g 10 r 10 b ; 8 b 6  g 12 r ; 9  g 11 b 1 r ; 12 r 5  g 11 b ; 7 r 2  g 8 b
- g 10 r 1  g 3 b ; 16 r 1  g 4 b ; 9 r 2 b ; 1 r
- g 11 b 13  g 10 r ; 15 r 12 b ; 3 b 9  g 6 r ; 12 b 5  g
- g 2 b 7 r ; 3  g 14 b 11 r ; 7 r 10 b ; 6 b 3  g 4 r ; 10 b
- g 1 b 7  g ; 6 r 12  g 1 b ; 8 r
- g 1 b 3  g 1 r ; 8  g 10 r 1 b ; 8  g 11 r ; 1 b 11  g 5 r ; 8  g 11 r 2 b ; 2 b 10 r 6  g
- g 17  g 2 b ; 12 b 8  g ; 11  g 3 r 4 b ; 5 r 9  g 14 b
- g 7 b 12  g 5 r ; 13  g 5 b 4 r ; 4 b 8  g 1 r ; 5 r 10  g 10 b ; 5 r 5 b 15  g ; 4 r 9  g 10 b
- g 8  g 2 r ; 8 r 4  g ; 5 r 2 b 7  g
- g 10  g 7 b 2 r ; 15 b 1  g 9 r ; 2 r 7  g 18 b ; 3  g 5 b 8 r ; 10  g 11 b 1 r ; 10  g 4 r 17 b
- g 13  g 10 b 7 r ; 1 r 15  g 7 b ; 17  g 14 r 3 b ; 6  g 8 b 6 r ; 4 r 3 b 5  g
- g 1 r 6  g 3 b ; 3 r 4 b 6  g ; 2 b 2 r 1  g ; 6 b 9  g 2 r ; 5  g 6 b
- g 1  g 1 r 3 b ; 2  g 4 b 8 r ; 5 r 2  g 3 b ; 3  g 1 r 3 b ; 3  g 4 b
- g 11 b 13  g ; 1 r 11  g 3 b ; 6 b 14  g 1 r ; 5 b 17  g
- g 3 b 10  g 4 r ; 2  g 6 r 13 b ; 1  g 1 b 6 r ; 5 r 1 b 1  g ; 2  g 5 r 5 b ; 9 b 10  g 6 r
- g 6 r 4  g 1 b ; 1 b 5 r 3  g ; 2 r 11  g 3 b
- g 13  g 2 r 2 b ; 5 b 6  g ; 12  g 3 r 4 b ; 2  g
- g 9 r 10 b 6  g ; 12 b 9 r ; 11 r 6  g ; 12 b 2 r 1  g
- g 1  g 2 b 5 r ; 2 b 1  g ; 1 b 2  g 1 r ; 2 b 1 r ; 3  g 3 r
- g 5  g 12 b 3 r ; 11 b 9  g 13 r ; 8 b 13  g 13 r
- g 2 r 3 b 1  g ; 1  g 19 b 1 r ; 7 b 2  g 2 r
- g 5 r 1 b 4  g ; 1 b 9  g 10 r ; 13 r 1  g ; 1 b 1 r 5  g
- g 13  g 2 b ; 1 r 4 b 13  g ; 5 r 7  g 4 b
- g 3 r 4 b 12  g ; 16  g 5 r 1 b ; 4 b 2 r 2  g ; 4 b 5 r 13  g ; 8 r 4 b 13  g ; 16  g 3 r
- g 6 r 3  g 2 b ; 1  g 6 r 2 b ; 3 b 8  g 9 r
- g 3  g 3 r 1 b ; 3 b 4  g 3 r ; 3 b 4  g 1 r ; 2 r 8  g 2 b
- g 5 r 6 b 3  g ; 1 b 2  g ; 3  g 2 b 2 r ; 1 r 3  g 6 b ; 12 r 2  g ; 4 b 2  g 4 r
- g 11  g 4 b 9 r ; 13 r 1 b 11  g ; 7  g 8 b 7 r ; 1 r 4 b
- g 3 b 19  g 7 r ; 19  g 1 r 1 b ; 9  g 2 r ; 7 r 6  g 1 b
- g 1 b 1  g 4 r ; 1  g 6 r ; 6 r 2 b ; 8 r 3 b
- g 9 r 6 b ; 4 r 1 b 2  g ; 1  g 10 b 6 r ; 2 b 1  g 10 r ; 7 r 9 b
- g 3 b 15  g 1 r ; 1 r 13  g 3 b ; 4 b 14  g 4 r ; 10  g 1 b
- g 1 r 13  g ; 3  g 1 r 5 b ; 5 b 6  g ; 14  g 4 b ; 3 b 10  g ; 13  g 1 r
- g 13  g 11 r 4 b ; 14 r 1  g 10 b ; 4 r 2  g 3 b
- g 2 r 3 b 6  g ; 2 r 2 b 8  g ; 14 b 1 r 1  g
- g 15 b 2 r 13  g ; 8  g 2 r 8 b ; 6 b 1 r 2  g
- g 5 r 4  g 9 b ; 1 r 5  g 4 b ; 11 b 4  g 2 r
- g 9 b 3  g ; 2  g 12 b ; 10  g 3 b ; 1  g 1 r 10 b
- g 4 b 2 r ; 3  g 10 b 7 r ; 2 b 7  g 1 r ; 13 b 9  g ; 10 b 4  g 1 r
- g 6 r 4  g ; 1 b 13 r ; 3  g 13 r
- g 1 r 13 b 1  g ; 7  g 5 b 3 r ; 15 b 6  g ; 4 b 5  g ; 13 b 2  g 1 r ; 4 b 3 r 2  g
- g 1 r 2  g ; 2 r 2 b 1  g ; 3  g 1 b 6 r ; 3 r 4  g ; 5 r 1 b 4  g ; 1 b 2 r 1  g
- g 9  g 2 b 12 r ; 2 b 14 r 2  g ; 14 r 12  g
+1r10b5g;11b6g;6g;1g1r12b;3b;3b4g1r
+3r5g;5g7r;1b7r3g;3r2b;5g4r
+4b4g;2g2b;8g2r3b
+3b15g;16g;2r7g;2b14g
+8g6r16b;8r12g;1r9g16b;8r3g;2b5r10g;15r4b8g
+5b2g;6r3g;4g4b2r;14b2r
+2g6b1r;2b1r;8b;5b1g;6b1r;2b
+1r10b1g;6b1r;3b2g;1r1b3g;13b;10b3g3r
+2b;8g3b;4g;14g1r2b;3b1r12g
+1b7g;1r3g5b;1b5g1r;13g5b2r
+1g10r6b;15r12b;18r1g1b
+16r8b1g;15r3b1g;5r
+6r7b7g;3b4r13g;1b6r11g;2r1b14g;8g5b2r;4b18g4r
+16r3b1g;7g3r;16r15g3b;3b13r10g
+1b1r;3b2g;1r;2r2g3b;3b1r3g
+9r3b;13r9b;9b10r;5r10b1g;2r6g8b;6g13r5b
+15r17g8b;18r16b15g;8b17g10r;5g3r12b
+2b11r2g;1g11r11b;1r4b;10b9r;1b7r
+2b3g5r;8b16g;12r7b8g;9g1b;3r16g10b
+3b5g6r;2r8b7g;7g3b;2r11b;1g6r3b
+16r3b8g;10r15b3g;6g13r15b;11g13b10r
+8g1b;2b9g3r;2r2b;1r3b8g;2b1g;1g2b
+2b8r5g;9g2b;10r2g;12r1b;11g2b13r;7g
+6r;13g7r10b;7g9r1b;3b2g2r
+7g1r2b;8g2b5r;5b8g4r;5b2g1r;5g3r7b;3b6g1r
+6g3r;1b2g2r;2g2r3b;4b8r2g;1r1g1b;6r5b
+4g13b2r;2r7g10b;14b11g1r;10b15g
+4g13r7b;2r5b;5b4g
+6g15r;1b6r8g;6g1b;12r;1g7r1b
+4b4g2r;6b9r20g;9b4r2g;8r8b1g;6g12b2r;8g8r
+9b;1r2b5g;2b2r9g;2b1r8g;11g2r3b;7g5b
+15r5g;4g2b3r;1b9r;1b15r;4b2r8g;3g3b
+13b1r1g;8b6r;4b2r
+5b9r7g;8r6g5b;2b7g12r
+4b15r;1g10b7r;9r3g1b;13r9b;3b2r
+4b18g2r;5g6b11r;6r12b14g;19g10b7r;7r8g9b
+16b5g18r;3b14g1r;4b3g14r;12g7r15b;15g11b2r;8b13g6r
+6r4b12g;3r11b;16g2b8r;4b11r4g;17g7r10b;9b15g1r
+1g1r10b;1r5b2g;4r7b;9r6g5b;1g2b9r
+13b11r12g;8g11r4b;2b2g12r;2g3r13b;13b6r2g;4g6r8b
+12r4g13b;4r7b10g;17g17r11b
+1r1g;1r4g;1b4r4g;3r;1b3g1r
+7b10g;5b2g;2b1g4r;14r6g7b;4g14r8b;4g6r
+9g4r;4r6g;5r2b7g;9b1g14r
+20b4r6g;3b1g6r;8b8g11r
+1g6r;6r3b3g;6r3b4g;1b5r;1g4r1b;2g4r
+12g8r4b;7g6r11b;4r11b12g
+1g3b;13g3r11b;7b1g2r;7r15g4b;4r8b10g;15g8b6r
+2r;2r9b;4b1g
+10b1g18r;13r1g7b;4r2g9b;2g4r10b;7b3r;19r9b
+2g2r5b;9r5b;3r10b;9b6r7g;2r5b
+6b3g;5g3b5r;1b2g2r
+2b9g15r;18r1b;13r12g;7g2b9r
+18g;2r6g;6r9g1b;1b4g5r;3r;3g4r
+5r2b5g;10b4g8r;15g9b9r;1g9b
+8g11b1r;1b1r4g;8b
+5g4b;1b4g;1r1g3b;1r2b6g
+8g10r10b;8b6g12r;9g11b1r;12r5g11b;7r2g8b
+10r1g3b;16r1g4b;9r2b;1r
+11b13g10r;15r12b;3b9g6r;12b5g
+2b7r;3g14b11r;7r10b;6b3g4r;10b
+1b7g;6r12g1b;8r
+1b3g1r;8g10r1b;8g11r;1b11g5r;8g11r2b;2b10r6g
+17g2b;12b8g;11g3r4b;5r9g14b
+7b12g5r;13g5b4r;4b8g1r;5r10g10b;5r5b15g;4r9g10b
+8g2r;8r4g;5r2b7g
+10g7b2r;15b1g9r;2r7g18b;3g5b8r;10g11b1r;10g4r17b
+13g10b7r;1r15g7b;17g14r3b;6g8b6r;4r3b5g
+1r6g3b;3r4b6g;2b2r1g;6b9g2r;5g6b
+1g1r3b;2g4b8r;5r2g3b;3g1r3b;3g4b
+11b13g;1r11g3b;6b14g1r;5b17g
+3b10g4r;2g6r13b;1g1b6r;5r1b1g;2g5r5b;9b10g6r
+6r4g1b;1b5r3g;2r11g3b
+13g2r2b;5b6g;12g3r4b;2g
+9r10b6g;12b9r;11r6g;12b2r1g
+1g2b5r;2b1g;1b2g1r;2b1r;3g3r
+5g12b3r;11b9g13r;8b13g13r
+2r3b1g;1g19b1r;7b2g2r
+5r1b4g;1b9g10r;13r1g;1b1r5g
+13g2b;1r4b13g;5r7g4b
+3r4b12g;16g5r1b;4b2r2g;4b5r13g;8r4b13g;16g3r
+6r3g2b;1g6r2b;3b8g9r
+3g3r1b;3b4g3r;3b4g1r;2r8g2b
+5r6b3g;1b2g;3g2b2r;1r3g6b;12r2g;4b2g4r
+11g4b9r;13r1b11g;7g8b7r;1r4b
+3b19g7r;19g1r1b;9g2r;7r6g1b
+1b1g4r;1g6r;6r2b;8r3b
+9r6b;4r1b2g;1g10b6r;2b1g10r;7r9b
+3b15g1r;1r13g3b;4b14g4r;10g1b
+1r13g;3g1r5b;5b6g;14g4b;3b10g;13g1r
+13g11r4b;14r1g10b;4r2g3b
+2r3b6g;2r2b8g;14b1r1g
+15b2r13g;8g2r8b;6b1r2g
+5r4g9b;1r5g4b;11b4g2r
+9b3g;2g12b;10g3b;1g1r10b
+4b2r;3g10b7r;2b7g1r;13b9g;10b4g1r
+6r4g;1b13r;3g13r
+1r13b1g;7g5b3r;15b6g;4b5g;13b2g1r;4b3r2g
+1r2g;2r2b1g;3g1b6r;3r4g;5r1b4g;1b2r1g
+9g2b12r;2b14r2g;14r12g

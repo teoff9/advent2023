@@ -1,0 +1,5 @@
+3b4r;1r2g6b;2g
+1b2g;3g4b1r;1g1b
+8g6b20r;5b4r13g;5g1r
+1g3r6b;3g6r;3g15b14r
+6r1b3g;2b1r2g
