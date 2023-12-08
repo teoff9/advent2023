@@ -2,11 +2,7 @@ use std::fs::read_to_string;
 
 fn main() {
 
-    let mut sum = 0;
-
-    for line in read_to_string("input.txt").unwrap().lines() {
-        sum += process_line(line.to_string());
-    }
+    let sum: i32 = read_to_string("input.txt").unwrap().lines().map(|line| process_line(line.to_string())).sum();
 
     println!("{sum}");
 }
@@ -45,14 +41,10 @@ fn process_line(line: String) -> i32 {
                 }
                 flag = true;
             }
-
-            
         }
     }
 
-    for a in maxs {
-        acc *= a;
-    }
+    maxs.iter().for_each(|a| acc = acc*a);
 
     acc
 }
