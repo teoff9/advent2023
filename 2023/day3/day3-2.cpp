@@ -35,7 +35,7 @@ int main() {
         int k = 0;
 
         for (char c : line) {
-            if (c!= '.' and !isdigit(c)) {
+            if (c== '*') {
                 sum += explore_around(checked, text, i, k);
             }
             k++;
@@ -51,15 +51,20 @@ int main() {
 
 int explore_around(vector<vector<bool>> &checked,vector<string> text, int i, int k) {
     int s = 0;
+    vector<int> numbers;
 
     for (int j :  {-1, 0, 1}) {
         for (int m : {-1, 0, 1}) {
             if (j != 0 or m != 0) {
                 if (isdigit(text[i+j][m+k]) && checked[i+j][m+k] == false) {
-                    s += get_number(checked, text[i+j],i+j, m+k);
+                    numbers.push_back(get_number(checked, text[i+j],i+j, m+k));
                 }
             }
         }
+    }
+
+    if (numbers.size() == 2) {
+        s += numbers[0] * numbers[1];
     }
 
     return s;
