@@ -6,25 +6,75 @@ fn main() {
     let nums: Vec<i64> = input[0].trim().split(" ").map(|n| n.parse().unwrap()).collect();
     input.remove(0);
     let maps: [Vec<[i64; 3]>; 7] = input_to_map(input);
-    let mut result = i64::MAX;
+    let numbers: Vec<[i64; 2]> = process_nums(nums);
+    let low_location = process_seeds(numbers, &maps);
+
+    println!("{}", low_location);
+}
+
+
+fn process_seeds(mut numbers: Vec<[i64; 2]>, maps: &[Vec<[i64; 3]>; 7]) -> i64 {
+    let mut res = i64::MAX;
+    let mut results: Vec<[i64;2]> = vec![];
+
+    for _i in 0..numbers.len() {
+        let mut num: Vec<[i64;2]> = vec![numbers.pop().unwrap()];
+        dbg!(&num);
+        for map in maps {
+                for i in 0..num.len() {
+                    for range in map {
+
+                    if num[i][0] >= range[1] && num[i][1] <= range[0]+range[2]-1 {
+                        num[i][0] = range[0]+num[i][0]-range[1];
+                        num[i][1] = range[0]+num[i][1]-range[1];
+                        
+                    } else if num[i][0] >= range[1] && num[i][0] <= range[0]+range[2]-1 && num[i][1] > range[0]+range[2] {
+                        num.push([range[1] + range[2], num[i][1]]);
+                        num[i][0] = range[0]+num[i][0]-range[1];
+                        num[i][1] = range[0]+range[2]-1;
     
-    for i in 0..nums.len() {
-        if (i+1) % 2 == 1 {
-            let n = process_seed(nums[i], &maps);
-            if n < result {
-                result = n;
-            }
-        } else {
-            for n in nums[i-1]+1..nums[i-1]+nums[i] {
-                let n = process_seed(n, &maps);
-                if n < result {
-                result = n;
+                    } else if  num[i][0] <= range[1] && num[i][1] >= range[1] && num[i][1] <= range[0]+range[2]-1 {
+                        num.push([num[i][0],range[1] -1]);
+                        num[i][0] = range[0] + range[2] - 1;
+                        num[i][1] = range[0]+num[i][1]-range[1];
+
+                    } else if num[i][0] < range[1] && num[i][1] > range[1]+range[2]-1 { 
+                        num.push([num[i][0], range[1]-1]);
+                        num.push([range[1]+range[2], num[i][1]]);
+                        num[i][0] = range[0];
+                        num[i][1] = range[0]+range[2]-1;
+
+                    }
                 }
+                dbg!(&num);
+                println!();
             }
+        }
+        //append processed range to results
+        for _i in 0..num.len() {
+            results.push(num.pop().unwrap());
         }
     }
 
-    println!("{result}");
+    for n in &results {
+        if n[0] < res {
+            res = n[0];
+        }
+    }
+    res
+}
+
+fn process_nums(nums: Vec<i64>) -> Vec<[i64; 2]> {
+    let mut a: i64 = 0;
+    let mut numbers: Vec<[i64; 2]> = vec![];
+    for i in 0..nums.len() {
+        if (i+1) % 2 == 1 {
+            a = nums[i];
+        } else {
+            numbers.push([a, a+nums[i]-1]);
+            }
+        }
+    numbers
 }
 
 fn input_to_map(input: Vec<String>) -> [Vec<[i64; 3]>; 7] {
@@ -39,17 +89,4 @@ fn input_to_map(input: Vec<String>) -> [Vec<[i64; 3]>; 7] {
         }
     }
     map
-}
-
-fn process_seed(mut n: i64, maps: &[Vec<[i64; 3]>; 7]) -> i64 {
-    for map in maps {
-        for range in map {
-            if range[1] <= n && range[1]+range[2]-1 >= n {
-                n = range[0] + n - range[1];
-                break;   
-            }
-        }
-    }
-
-    n
 }
