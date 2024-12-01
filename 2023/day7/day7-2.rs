@@ -32,7 +32,7 @@ impl Hand {
 }
 
 fn main() {
-    let mut hands: Vec<Hand> = read_to_string("input.txt").unwrap().lines().map(|l| Hand::new(l.to_string())).collect();
+    let mut hands: Vec<Hand> = read_to_string("sample.txt").unwrap().lines().map(|l| Hand::new(l.to_string())).collect();
     sort_hands(&mut hands);
     let mut answ = 0;
     for i in 0..hands.len() {
@@ -78,7 +78,15 @@ fn convert_symbol(sy: char) -> i8 {
 }
 
 fn find_power(cards: &Vec<i8>) -> i8 {
-    let cs = cards.into_iter().collect::<HashSet<_>>();
+    let mut j_times = 0;
+    for i in 0..cards.len() {
+        if cards[i] == 11 {
+            j_times += 1;
+        }
+    }
+    
+    if j_times == 0 {
+        let cs = cards.into_iter().collect::<HashSet<_>>();
     match cs.len().try_into().unwrap() {
         1 => 7,
         2 => {
@@ -116,6 +124,5 @@ fn find_power(cards: &Vec<i8>) -> i8 {
         5 => 1,
         _ => panic!("something isn't right")
     }
-
-    
+    }
 }
