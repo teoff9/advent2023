@@ -11,6 +11,7 @@ fn main() {
     assert!(part_two("data/sample.txt") == 4);
     let ans2 = part_two("data/input.txt");
     println!("Part two: {ans2}");
+    assert!(ans2 == 604);
 }
 
 fn load_data(file: &str) -> Vec<Vec<i32>> {
@@ -29,13 +30,7 @@ fn part_one(file: &str) -> i32 {
     let mut acc = 0;
 
     input.iter_mut().for_each(|v| {
-        if v[0] > v[v.len() - 1] {
-            v.reverse();
-        }
-
-        if v.windows(2)
-            .all(|w| condition(0, 1, w))
-        {
+        if is_valid(&v) {
             acc += 1;
         }
     });
@@ -45,49 +40,26 @@ fn part_one(file: &str) -> i32 {
 fn part_two(file: &str) -> i32 {
     let mut input = load_data(file);
     let mut acc = 0;
-    let mut t = 0;
-    let mut i: usize = 0;
-    let mut j: usize = 1;
 
-    input.iter_mut().for_each(|v|{
-        t = 0;
-        i = 0;
-        j = 1;
-        if v[0] > v[v.len() - 1] {
-            v.reverse();
-        }
-        dbg!(&v);
-        while j < v.len() {
-            if !condition(i, j, &v) {
-                t += 1;
-                if j+1 > v.len() {
-                    break;
-                } else {
-                    j += 1;
+    'outer: for v in input.iter_mut() {
+        if is_valid(v) {
+            acc += 1;
+        } else {
+            for j in 0..v.len() {
+                let mut w = v.clone();
+                w.remove(j);
+                if is_valid(&w) {
+                    acc += 1;
+                    continue 'outer;
                 }
-                if !condition(i, j, &v) {
-                    t += 1;
-                    break;
-                } else {
-                    i = j;
-                    j += 1;
-                }
-            } else {
-                i += 1;
-                j += 1;
             }
         }
-        dbg!(t);
-        if t <= 1 {
-            acc += 1;
-        }
-
-    });
-    
-    dbg!(acc);
+    }
     acc
 }
 
-fn condition(i: usize, j: usize, w: &[i32]) -> bool {
-    w[i] < w[j] && (1..=3).contains(&(w[i] - w[j]).abs())
+fn is_valid(v: &[i32]) -> bool {
+    let direction = v[0] < v[1];
+    v.windows(2)
+        .all(|w| direction == (w[0] < w[1]) && (1..=3).contains(&(w[0] - w[1]).abs()))
 }
